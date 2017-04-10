@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<input type="button" value="Click to flip a coin" onclick="myFunction()">
+<div id="showCount"></div>
+<script>
+var cars = ["Tails","Heads","Tails","Tails","Heads","Heads","Tails","Heads","Tails","Heads","Heads","Heads","Tails","Tails","Heads"];
+var inc=-1;
+ function myFunction() {
+    inc=inc+1;
+    document.getElementById("showCount").innerHTML = cars[inc];
+  
+}
+</script>
+
+</body>
+</html>
